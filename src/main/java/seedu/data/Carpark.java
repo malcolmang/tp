@@ -54,8 +54,8 @@ public class Carpark {
     }
 
     public String getListViewString() {
-        return String.format("CarparkID %s at %s\n   %s available lots total", carparkId,
-                developmentSentence.toString(), availableLots);
+        return String.format("%s\n   %s available lots total\n   CarparkID:  %s",
+                developmentSentence.toString(), availableLots, carparkId);
     }
 
     public String getDetailViewString() {
